@@ -1,0 +1,14 @@
+.card {
+    cursor: pointer;
+    transition: all ease 200ms;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    background-color: rgb(59, 23, 69);
+  }
+  

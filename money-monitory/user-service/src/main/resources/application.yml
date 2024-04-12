@@ -1,0 +1,92 @@
+auth:
+  url: oauth2/v3/userinfo
+
+springdoc:
+  apiDocs:
+    path: /api-docs
+  swaggerUi:
+    path: /swagger-ui-custom.html
+
+
+
+logging:
+  level:
+    in: DEBUG
+  file:
+    name: userService.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    console: "%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+server:
+  port: 8010
+
+spring:
+
+  application:
+    name: user-service
+  datasource:
+######## Docker Configuration
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:database}?createDatabaseIfNotExist=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_ROOT_PASSWORD:}
+    name: database
+
+
+######### This is local server configurations here.
+#    url: jdbc:mysql://localhost:3306/money?createDatabaseIfNotExist=true
+#    username: root
+#    password: password
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+
+  mail:
+    debug: true
+    host: smtp.gmail.com
+    port: 587
+    username: lakithakare54726@gmail.com
+    password: njtszxqdpkonsywa
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+        transport:
+          protocol: smtp
+
+
+jwt:
+  secretKey: ${JWT_SECRET:27432a621869814664e0c685c96427f2785d0f984d2697ec95b9818246f6163d}
+
+
+twilio:
+  sid: AC84b7128d2e335f0b4f8b9c8289e735b9
+  token: bf4d433b9a8147f6b6b9f9972f8fe730
+  service:
+    sid: VA9a9be74b3976bc906140b0ab1d3ce499
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:localhost}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8000}/eureka/
+
+
+########## Configuration for local server
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8000/eureka/

@@ -1,0 +1,44 @@
+server:
+  port: 9000
+
+
+spring:
+  datasource:
+##### CONFIGURATION FOR DOCKER
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:database}?createDatabaseIfNotExist=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_ROOT_PASSWORD:}
+    name: database
+##### CONFIGURATION FOR LOCAL DATABASE
+#    url: jdbc:mysql://localhost:3306/money?createDatabaseIfNotExist=true
+#    username: root
+#    password: password
+  application:
+    name: Transaction
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+
+##### CONFIGURATION FOR DOCKER
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:localhost}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8000}/eureka/
+
+##### CONFIGURATION FOR LOCAL DATABASE
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8000/eureka/

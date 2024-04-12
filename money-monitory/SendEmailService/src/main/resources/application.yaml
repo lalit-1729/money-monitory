@@ -1,0 +1,56 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: sendEmailService
+  datasource:
+##### CONFIGURATION FOR DOCKER
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:database}?createDatabaseIfNotExist=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_ROOT_PASSWORD:}
+    name: database
+
+##### CONFIGURATION FOR LOCAL DATABASE
+#    url: jdbc:mysql://localhost:3306/money?createDatabaseIfNotExist=true
+#    username: root
+#    password: password
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+    host: smtp.gmail.com
+    username: garghiteshi0402@gmail.com
+    password: qgbl sjde zocl jtwr
+    port: 587
+
+##### CONFIGURATION FOR DOCKER
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:localhost}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8000}/eureka/
+
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8000/eureka/
+
+

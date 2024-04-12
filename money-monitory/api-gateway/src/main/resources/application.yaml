@@ -1,0 +1,55 @@
+jwt:
+  secretKey: ${JWT_SECRET:27432a621869814664e0c685c96427f2785d0f984d2697ec95b9818246f6163d}
+
+server:
+  port: 8020
+
+logging:
+  level:
+    in: DEBUG
+  file:
+    name: gatewayService.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    console: "%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+
+spring:
+  application:
+    name: api-gateway
+
+  main:
+    webApplicationType: reactive
+
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods: "*"
+#      routes:
+#        - id: user_route
+#          uri: "lb://user-service"
+#          predicates:
+#            - Path=/api/v1/users/**
+#        - id: Transaction
+#          uri: "lb://Transaction"
+#          predicates:
+#            - Path=/api/**
+#        - id: Account
+#          uri: "lb://Account"
+#          predicates:
+#            - Path=/api/**
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:localhost}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8000}/eureka/

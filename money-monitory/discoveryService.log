@@ -1,0 +1,147 @@
+2023-10-13 00:00:00 - Initializing Eureka in region us-east-1
+2023-10-13 00:00:00 - Client configured to neither register nor query for data.
+2023-10-13 00:00:00 - Discovery Client initialized at timestamp 1697135400055 with initial instances count: 0
+2023-10-13 00:00:00 - Initializing ...
+2023-10-13 00:00:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:00:00 - Finished initializing remote region registries. All known remote regions: []
+2023-10-13 00:00:00 - Initialized
+2023-10-13 00:00:00 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-13 00:00:00 - Registering application UNKNOWN with eureka with status UP
+2023-10-13 00:00:01 - isAws returned false
+2023-10-13 00:00:01 - Initialized server context
+2023-10-13 00:00:01 - Got 1 instances from neighboring DS node
+2023-10-13 00:00:01 - Renew threshold is: 1
+2023-10-13 00:00:01 - Changing status to UP
+2023-10-13 00:00:01 - Tomcat started on port(s): 8000 (http) with context path ''
+2023-10-13 00:00:01 - Updating port to 8000
+2023-10-13 00:00:01 - Started Eureka Server
+2023-10-13 00:00:02 - Started DiscoveryServiceApplication in 39.754 seconds (process running for 42.637)
+2023-10-13 00:00:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13 00:00:08 - Initializing Servlet 'dispatcherServlet'
+2023-10-13 00:00:08 - Completed initialization in 7 ms
+2023-10-13 00:00:10 - Registered instance API-GATEWAY/LAPTOP-TUK9NT19:api-gateway:8020 with status UP (replication=false)
+2023-10-13 00:01:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:02:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:03:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:03:05 - Registered instance ACCOUNT/LAPTOP-TUK9NT19:Account:8015 with status UP (replication=false)
+2023-10-13 00:04:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:05:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:06:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:07:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:07:06 - Registered instance USER-SERVICE/LAPTOP-TUK9NT19:user-service:8010 with status UP (replication=false)
+2023-10-13 00:07:56 - Registered instance TRANSACTION/LAPTOP-TUK9NT19:Transaction:9000 with status UP (replication=false)
+2023-10-13 00:08:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:09:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:09:13 - Registered instance SENDEMAILSERVICE/LAPTOP-TUK9NT19:sendEmailService:9010 with status UP (replication=false)
+2023-10-13 00:10:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:10:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:11:01 - Running the evict task with compensationTime 2ms
+2023-10-13 00:12:01 - Running the evict task with compensationTime 3ms
+2023-10-13 00:13:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:14:01 - Running the evict task with compensationTime 12ms
+2023-10-13 00:15:00 - Current renewal threshold is : 10
+2023-10-13 00:15:01 - Running the evict task with compensationTime 14ms
+2023-10-13 00:16:01 - Running the evict task with compensationTime 9ms
+2023-10-13 00:17:01 - Running the evict task with compensationTime 3ms
+2023-10-13 00:18:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:19:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:20:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:20:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:21:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:22:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:23:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:24:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:25:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:26:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:27:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:28:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:29:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:30:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:30:00 - Current renewal threshold is : 10
+2023-10-13 00:30:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:31:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:32:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:33:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:34:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:35:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:36:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:37:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:38:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:39:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:40:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:40:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:41:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:42:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:43:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:44:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:45:00 - Current renewal threshold is : 10
+2023-10-13 00:45:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:46:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:47:01 - Running the evict task with compensationTime 7ms
+2023-10-13 00:48:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:49:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:50:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 00:50:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:51:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:52:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:53:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:54:01 - Running the evict task with compensationTime 0ms
+2023-10-13 00:55:01 - Running the evict task with compensationTime 1ms
+2023-10-13 00:56:01 - Running the evict task with compensationTime 9ms
+2023-10-13 00:57:01 - Running the evict task with compensationTime 2ms
+2023-10-13 00:58:01 - Running the evict task with compensationTime 11ms
+2023-10-13 00:59:01 - Running the evict task with compensationTime 3ms
+2023-10-13 01:00:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 01:00:00 - Current renewal threshold is : 10
+2023-10-13 01:00:01 - Running the evict task with compensationTime 11ms
+2023-10-13 01:01:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:02:01 - Running the evict task with compensationTime 8ms
+2023-10-13 01:03:01 - Running the evict task with compensationTime 0ms
+2023-10-13 01:04:01 - Running the evict task with compensationTime 4ms
+2023-10-13 01:05:01 - Running the evict task with compensationTime 13ms
+2023-10-13 01:06:01 - Running the evict task with compensationTime 5ms
+2023-10-13 01:07:01 - Running the evict task with compensationTime 11ms
+2023-10-13 01:08:01 - Running the evict task with compensationTime 3ms
+2023-10-13 01:09:01 - Running the evict task with compensationTime 10ms
+2023-10-13 01:10:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 01:10:01 - Running the evict task with compensationTime 6ms
+2023-10-13 01:11:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:12:01 - Running the evict task with compensationTime 13ms
+2023-10-13 01:13:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:14:01 - Running the evict task with compensationTime 2ms
+2023-10-13 01:15:00 - Current renewal threshold is : 10
+2023-10-13 01:15:01 - Running the evict task with compensationTime 3ms
+2023-10-13 01:16:01 - Running the evict task with compensationTime 4ms
+2023-10-13 01:17:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:18:01 - Running the evict task with compensationTime 9ms
+2023-10-13 01:19:01 - Running the evict task with compensationTime 9ms
+2023-10-13 01:20:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 01:20:01 - Running the evict task with compensationTime 7ms
+2023-10-13 01:21:01 - Running the evict task with compensationTime 7ms
+2023-10-13 01:22:01 - Running the evict task with compensationTime 4ms
+2023-10-13 01:23:01 - Running the evict task with compensationTime 14ms
+2023-10-13 01:24:01 - Running the evict task with compensationTime 6ms
+2023-10-13 01:25:01 - Running the evict task with compensationTime 15ms
+2023-10-13 01:26:01 - Running the evict task with compensationTime 7ms
+2023-10-13 01:27:01 - Running the evict task with compensationTime 0ms
+2023-10-13 01:28:01 - Running the evict task with compensationTime 6ms
+2023-10-13 01:29:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:30:00 - The replica size seems to be empty. Check the route 53 DNS Registry
+2023-10-13 01:30:00 - Current renewal threshold is : 10
+2023-10-13 01:30:01 - Running the evict task with compensationTime 2ms
+2023-10-13 01:31:01 - Running the evict task with compensationTime 8ms
+2023-10-13 01:32:01 - Running the evict task with compensationTime 13ms
+2023-10-13 01:33:01 - Running the evict task with compensationTime 6ms
+2023-10-13 01:34:01 - Running the evict task with compensationTime 7ms
+2023-10-13 01:35:01 - Running the evict task with compensationTime 12ms
+2023-10-13 01:36:01 - Running the evict task with compensationTime 15ms
+2023-10-13 01:37:01 - Running the evict task with compensationTime 144ms
+2023-10-13 01:37:21 - Unregistering application UNKNOWN with eureka with status DOWN
+2023-10-13 01:37:24 - Shutting down Eureka Server..
+2023-10-13 01:37:24 - Shutting down ...
+2023-10-13 01:37:24 - Shut down
+2023-10-13 01:37:24 - Eureka Service is now shutdown...
+2023-10-13 01:37:24 - Shutting down ...
+2023-10-13 01:37:24 - Shut down
+2023-10-13 01:37:24 - Shutting down DiscoveryClient ...
+2023-10-13 01:37:25 - Completed shut down of DiscoveryClient

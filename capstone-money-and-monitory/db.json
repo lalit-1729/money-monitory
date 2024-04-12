@@ -1,0 +1,192 @@
+{
+  "transactions": [
+    {
+      "transaction_id": "txn1",
+      "amount": 12.75,
+      "round_up_amount": 0.25,
+      "date": "2023-09-25T14:30:00",
+      "type": "debit",
+      "merchant": "Amazon",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn2",
+      "amount": 50.65,
+      "round_up_amount": 0.35,
+      "date": "2023-05-10T02:30:00",
+      "type": "debit",
+      "merchant": "Flipkart",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn3",
+      "amount": 20.5,
+      "round_up_amount": 0.5,
+      "date": "2023-09-25T15:45:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn4",
+      "amount": 30.0,
+      "round_up_amount": 0.0,
+      "date": "2023-04-12T12:10:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn5",
+      "amount": 12.75,
+      "round_up_amount": 0.25,
+      "date": "2023-09-25T14:30:00",
+      "type": "debit",
+      "merchant": "Amazon",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn6",
+      "amount": 50.65,
+      "round_up_amount": 0.35,
+      "date": "2023-05-10T02:30:00",
+      "type": "debit",
+      "merchant": "Flipkart",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn7",
+      "amount": 20.5,
+      "round_up_amount": 0.5,
+      "date": "2023-09-25T15:45:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn8",
+      "amount": 30.0,
+      "round_up_amount": 0.0,
+      "date": "2023-04-12T12:10:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },{
+      "transaction_id": "txn9",
+      "amount": 12.75,
+      "round_up_amount": 0.25,
+      "date": "2023-09-25T14:30:00",
+      "type": "debit",
+      "merchant": "Amazon",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn10",
+      "amount": 50.65,
+      "round_up_amount": 0.35,
+      "date": "2023-05-10T02:30:00",
+      "type": "debit",
+      "merchant": "Flipkart",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn11",
+      "amount": 20.5,
+      "round_up_amount": 0.5,
+      "date": "2023-09-25T15:45:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn12",
+      "amount": 30.0,
+      "round_up_amount": 0.0,
+      "date": "2023-04-12T12:10:00",
+      "type": "debit",
+      "merchant": "Starbucks",
+      "category": "Food & Beverage",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn13",
+      "amount": 12.75,
+      "round_up_amount": 0.25,
+      "date": "2023-09-25T14:30:00",
+      "type": "debit",
+      "merchant": "Amazon",
+      "category": "Online Shopping",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "txn14",
+      "amount": 50.65,
+      "round_up_amount": 0.35,
+      "date": "2023-05-10T02:30:00",
+      "type": "debit",
+      "merchant": "Flipkart",
+      "category": "Online Shopping",
+      "status": "completed"
+    }
+  ],
+  "SavingsAccount": [
+    {
+      "AccountNumber": "123456789009",
+      "AccountHolderName": "Savings1",
+      "IFSC_Code": "Natwest0091",
+      "balance":145.90
+    },
+    {
+      "AccountNumber": 123456789013,
+      "AccountHolderName": "Savingss",
+      "IFSC_Code": "Natwest0091",
+      "balance":14200.90
+    }
+  ],
+  "SavingsAccountNumbers":[{
+    "AccountNumbers":["123456789009","123456789013"]
+  }],
+  "PrimartAccounts": [
+    {
+      "AccountNumber": "123456789010",
+      "AccountHolderName": "Primary1",
+      "IFSC_Code": "Natwest0091",
+      "balance":14200.90
+    },
+    {
+      "AccountNumber": "123456789011",
+      "AccountHolderName": "Primary2",
+      "IFSC_Code": "Natwest0091",
+      "balance":1404.90
+    },
+    {
+      "AccountNumber": "123456789012",
+      "AccountHolderName": "Primary3",
+      "IFSC_Code": "Natwest0091",
+      "balance":2300.90
+    }
+  ],
+  "PrimaryAccountNumbers": [{
+    "AccountNumbers": ["123456789010","123456789011","123456789012"]
+  }],
+
+  "users":[
+    {
+      "id": 1,
+      "name": "Hiteshi",
+      "email": "hiteshigarg21@gmail.com"
+    }
+  ]
+
+}

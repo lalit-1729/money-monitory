@@ -1,0 +1,26 @@
+.container{
+    width: 60vw;
+    height: 70vh;
+    margin-top: 10vh;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 30px;
+    padding-left: 12px;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid;
+}
+.row{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-bottom: 1px solid
+}
+.btn{
+    margin-right: 0.5vw ;
+}
+.textarea{
+    margin-bottom: 2vh;
+}
