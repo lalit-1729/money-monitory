@@ -26,10 +26,10 @@
 	<modules>
 		<module>api-gateway</module>
 		<module>user-service</module>
-		<module>SendEmailService</module>
+		<module>emails-service</module>
 		<module>discovery-service</module>
-		<module>Account</module>
-		<module>Transaction</module>
+		<module>account-service</module>
+		<module>transaction-service</module>
 	</modules>
 	<dependencies>
 		<dependency>

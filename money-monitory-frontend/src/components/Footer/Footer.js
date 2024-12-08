@@ -118,12 +118,12 @@ function Footer() {
                 : theme.palette.grey[800],
           }}
         >
-          <Container maxWidth="sm">
+{/*          <Container maxWidth="sm">
             <Typography variant="body1" color={"black"}>
               &copy;{new Date().getFullYear()} Natwest Group. All rights reserved.
             </Typography>
-          </Container>
-        </Box>
+          </Container>*/
+}        </Box>
       </Box>
     </>
 
