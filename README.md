@@ -1,6 +1,6 @@
 # Money-Monitory
 
-**Money-Monitory** is a platform developed for NatWest Bank customers to encourage savings by rounding up debit card transactions to the nearest pound and crediting the difference to a savings account. The platform is designed to make saving effortless and intuitive, with additional functionalities for customer engagement and transaction management.
+**Money-Monitory** is a dummy platform developed for customers to encourage savings by rounding up debit card transactions to the nearest pound and crediting the difference to a savings account. The platform is designed to make saving effortless and intuitive, with additional functionalities for customer engagement and transaction management.
 
 ---
 
